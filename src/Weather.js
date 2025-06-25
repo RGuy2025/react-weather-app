@@ -45,7 +45,7 @@ export default function Weather() {
 
             <div className=" weather-app-temperature">18</div>
             <span className=" weather-app-unit">
-              <a href="#">°C </a> | <a href="#">°F</a>
+              <a href="#temp">°C </a> | <a href="#temp">°F</a>
             </span>
           </div>
         </div>
