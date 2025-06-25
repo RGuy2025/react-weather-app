@@ -1,7 +1,7 @@
 
 import './App.css';
 import Weather from "./Weather";
-import React, { useState } from "react";
+
 
 
 function App() {

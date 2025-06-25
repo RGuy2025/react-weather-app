@@ -1,5 +1,5 @@
 
-import React from "react";
+
 import "./Weather.css";
 
 
@@ -40,12 +40,12 @@ export default function Weather() {
           <div className="weather-app-temperature-container">
             <img
               src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-              alt=""
+              alt="#"
             />
 
             <div className=" weather-app-temperature">18</div>
             <span className=" weather-app-unit">
-              <a href="">°C </a> | <a href="">°F</a>
+              <a href="#">°C </a> | <a href="#">°F</a>
             </span>
           </div>
         </div>
