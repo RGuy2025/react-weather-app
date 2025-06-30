@@ -1,9 +1,11 @@
-
+import axios from "axios";
 
 import "./Weather.css";
 
-
 export default function Weather() {
+  const apiKey = "5912o91beb33d634bfd91ta0a18fa0bd";
+  let apiUrl =
+    `https://api.shecodes.io/weather/v1/current?query={query}&key=${apiKey}&units=metric`;
   return (
     <div className="main-body">
       <header>
