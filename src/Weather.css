@@ -46,11 +46,14 @@ main {
   font-size: 20px;
   line-height: 20px;
 }
+.description-details {
+  text-transform: capitalize;
+}
 .humidity-details {
   color: #692e91;
   font-weight: bold;
 }
-.wind-details {
+.feels-like-details {
   color: #692e91;
   font-weight: bold;
 }
