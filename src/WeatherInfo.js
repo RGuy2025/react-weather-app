@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
 
+
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
@@ -31,8 +32,7 @@ export default function WeatherInfo(props) {
           </div>
         </div>
       </div>
-
-      <div className="row weather-forecast"></div>
+      
     </div>
   );
 }

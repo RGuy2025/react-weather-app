@@ -1,0 +1,6 @@
+.WeatherForecast {
+  text-align: center;
+}
+.WeatherForecast-low {
+  opacity: 0.6;
+}
