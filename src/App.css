@@ -5,12 +5,7 @@
   margin: 30px auto;
 }
 body {
-  background: linear-gradient(
-    to bottom,
-    rgb(251, 250, 205) 24.4%,
-    rgb(247, 163, 205) 53.7%,
-    rgb(141, 66, 243) 99.2%
-  );
+  background: linear-gradient(90.9deg, rgb(3, 195, 195) 0.3%, rgb(37, 84, 112) 87.8%);
   background-attachment: fixed;
   font-family: "Roboto Flex", serif;
 }

@@ -12,11 +12,12 @@ header {
   padding: 20px 0;
 }
 a {
-  color: deeppink;
+  color: #9d41da;
   text-decoration: none;
 }
 .search-form-input {
-  background-color: rgb(247, 163, 205);
+  
+  background-color: #ce97f3;
   width: 75%;
   padding: 10px;
   border: none;
@@ -25,7 +26,8 @@ a {
 }
 
 .search-form-button {
-  background: rgb(247, 163, 205);
+  
+  background:#ce97f3;
   width: 20%;
   border: none;
   border-radius: 10px;
@@ -43,18 +45,18 @@ main {
   line-height: 48px;
 }
 .weather-app-details {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 20px;
 }
 .description-details {
   text-transform: capitalize;
 }
 .humidity-details {
-  color: #692e91;
+  color: #9d41da;
   font-weight: bold;
 }
 .feels-like-details {
-  color: #692e91;
+  color: #9d41da;
   font-weight: bold;
 }
 .weather-app-temperature-container {

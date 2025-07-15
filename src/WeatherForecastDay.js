@@ -1,14 +1,11 @@
-
-import WeatherForecastIcon from "./WeatherForecastIcon";
-
 export default function WeatherForecastDay(props) {
   function maxTemperature() {
-    let temperature = Math.round(props.temperature.maximum);
+    let temperature = Math.round(props.data.temperature.maximum);
     return temperature;
   }
 
   function minTemperature() {
-    let temperature = Math.round(props.temperature.minimum);
+    let temperature = Math.round(props.data.temperature.minimum);
     return temperature;
   }
 
@@ -20,16 +17,18 @@ export default function WeatherForecastDay(props) {
     return days[day];
   }
 
+  let forecastIconUrl = `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${props.data.condition.icon}.png`;
+
   return (
-    <div>
+    <span>
       <div className="WeatherForecast-day">{day()}</div>
       <div className="WeatherForecast-icon">
-        <WeatherForecastIcon />
+        <img src={forecastIconUrl} alt={props.data.condition.description} />
       </div>
-      <div>
-        <span className="WeatherForecast-high">{maxTemperature ()}°C</span> |{" "}
-        <span className="WeatherForecast-low">{minTemperature ()}°C</span>
+      <div className="WeatherForecast-high-low">
+        <span className="WeatherForecast-high">{maxTemperature()}°C</span> |{" "}
+        <span className="WeatherForecast-low">{minTemperature()}°C</span>
       </div>
-    </div>
+    </span>
   );
 }
